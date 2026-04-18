@@ -1,3 +1,6 @@
 export async function GET() {
-  return Response.json({ message: "AWS data placeholder" });
+  return Response.json({
+    cpu: "35%",
+    instances: 3
+  });
 }
